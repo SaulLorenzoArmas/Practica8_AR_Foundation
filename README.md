@@ -10,5 +10,6 @@ Partiendo de ese juego base, donde el coche solo recogía paquetes, se desarroll
 Para implementar la araña, se siguió exactamente la misma idea y estructura que la del paquete. Se duplicó su funcionalidad base (Prefabs y Spawners) y lo que se cambió fue, el objeto 3D, ajustando su collider y asignándole una etiqueta (arana) nueva para diferenciarla del regalo.
 
 Por último, la lógica de los impactos se centro en el script `CarBehaviour` del vehículo. En este, se programó el evento de colisión (`OnTriggerEnter`). Al detectar un choque, el coche comprueba la etiqueta del objeto ("Paquete" o "Arana"), se comunica con la cámara principal (que representa al personaje) para actualizar los puntos en pantalla, y destruye el objeto con el que ha chocado (apagando su colisión para evitar bugs de puntuación múltiple).
-
-<img src="imagenes/video_coche_gif.gif" width="30%" alt="Descripción del GIF">
+<p align="center">
+  <img src="imagenes/video_coche_gif.gif" width="30%" alt="Descripción del GIF">
+</p>
