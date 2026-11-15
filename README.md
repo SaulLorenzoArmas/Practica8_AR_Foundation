@@ -11,4 +11,4 @@ Para implementar la araña, se siguió exactamente la misma idea y estructura qu
 
 Por último, la lógica de los impactos se centro en el script `CarBehaviour` del vehículo. En este, se programó el evento de colisión (`OnTriggerEnter`). Al detectar un choque, el coche comprueba la etiqueta del objeto ("Paquete" o "Arana"), se comunica con la cámara principal (que representa al personaje) para actualizar los puntos en pantalla, y destruye el objeto con el que ha chocado (apagando su colisión para evitar bugs de puntuación múltiple).
 
-<img src="imagenes/video_coche_gif.gif" width="50%" alt="Descripción del GIF">
+<img src="imagenes/video_coche_gif.gif" width="80%" alt="Descripción del GIF">
