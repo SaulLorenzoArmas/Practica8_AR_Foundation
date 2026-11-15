@@ -1,3 +1,4 @@
+
 # Practica8_AR_Foundation
 
 En esta práctica se ha desarrollado un minijuego de Realidad Aumentada (AR) utilizando el motor Unity y el framework AR Foundation. En concreto, el proyecto se ha configurado y compilado para dispositivos Apple, haciendo uso de **ARKit** .
